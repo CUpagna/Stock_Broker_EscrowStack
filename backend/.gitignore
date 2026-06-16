@@ -1,0 +1,12 @@
+# Python / Backend
+__pycache__/
+*.pyc
+tradeview.db
+
+# Node / Frontend
+node_modules/
+build/
+.env
+
+# OS Files
+.DS_Store
