@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './LoginPage.css';
 
-const API = 'http://localhost:8000';
+const API = 'https://stock-broker-escrowstack.onrender.com';
 
 export default function LoginPage({ onLogin }) {
   const [tab, setTab] = useState('login'); // 'login' | 'register' | 'forgot'

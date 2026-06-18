@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 import StockCard from './StockCard';
 import './Dashboard.css';
 
-const API = 'http://localhost:8000';
-const WS_BASE = 'ws://localhost:8000';
+const API = 'https://stock-broker-escrowstack.onrender.com';
+const WS_BASE = 'wss://stock-broker-escrowstack.onrender.com';
 
 const STOCKS_INFO = {
   GOOG: { name: 'Alphabet Inc.',   flag: '🔵' },
